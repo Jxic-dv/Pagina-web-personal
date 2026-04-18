@@ -1,0 +1,84 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 5px;
+}
+
+#contenedor-principal {
+
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #0056b3;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#lista-pasatiempos {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#lista-pasatiempos li {
+    margin-bottom: 10px;
+}
+
+.titulo-nombre {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2.8em;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.seccion-biografia p {
+    text-align: justify;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.enlace-social {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.enlace-social:hover {
+    background-color: #003d82;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777777;
+}
